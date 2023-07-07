@@ -1,4 +1,4 @@
- html{
+html{
     background-color: whitesmoke ;
    margin: 0px;
  }
@@ -185,7 +185,7 @@ h1{
     border-right: 0px;   
 }
 
-.GCFFOUR > p , .GCFFOUR > h2 {
+.GCFFOUR > p , .GCFFOUR > h2 , h2 > a {
    text-align: center;
  color: whitesmoke;
 }

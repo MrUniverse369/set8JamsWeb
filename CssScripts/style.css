@@ -1,15 +1,12 @@
 html{
     background-color: #0d0700;
-    padding: 0%;
 }
 body{
+    background-color: #0d0700;
 }
 
-.mainImg,.TrueNatureImg, .EtlImg,.GcImg{
-    width: 100%;
-    height: 100%;
-    padding: 0%;
-    margin: 0;
+.TitleImgHolder{
+    background-color: #0d0700;
 }
 
 /*html, body{

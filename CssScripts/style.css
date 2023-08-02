@@ -1,13 +1,12 @@
 html{
     background-color: #0d0700;
 }
-body{
+
+.TrueNatureContainer,.GalacticCrusadeContainer,.NavBarContainer{
     background-color: #0d0700;
+    font-family:  'Mada', sans-serif;
 }
 
-.TitleImgHolder{
-    background-color: #0d0700;
-}
 
 /*html, body{
     background-color: #0d0700;

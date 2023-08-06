@@ -17,48 +17,58 @@
     </style>
   </head>
   <body class="container-fluid bg-dark ps-0 pe-0 ms-0 me-0">
-    <div
-      class="row container-fluid NavBarContainer h4 border-1 border-bottom ps-0 pe-0 mb-0 ms-0 me-0"
+
+    <nav
+      class="navbar navbar-dark NavBarContainer navbar-expand-sm h4 border-1 border-bottom ps-0 pe-0 mb-0 ms-0 me-0"
     >
-      <nav class="navbar navbar-expand-lg">
-        <div>
-          <a class="navbar-brand text-white" href="index.html">SET8JAMS</a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                class="nav-link active text-white"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
-              <a class="nav-link text-white tex" href="GalacticCrusade.html"
-                >GalacticCrusade</a
-              >
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand text-white">SET8JAMS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-white" href="TrueNature.html"
                 >TrueNature</a
               >
-            </div>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="GalacticCrusade.html"
+                >GalacticCrusade</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <!--TITLE-->
-    <div
-      class="row TrueNatureContainer container-fluid border-bottom border-1 border-white ps-0 pe-0 pb-5 ms-0 me-0"
-    >
-      <div class="col-sm-12 ps-0 pe-0">
+    <div class="row TrueNatureContainer border-1 border-bottom pb-5 ps-0 pe-0 m-0">
+        <div class="col"></div>
         <img
           src="images/LevelDesign_Scene_Zero_FinalEdit_JPAGVEr.jpg"
-          class="mainImg container-fluid ps-0 pe-0"
-          alt="Sunny Platform Level"
+          alt=""
+          class="img-fluid ps-0 pe-0"
         />
       </div>
     </div>
 
     <!--TrueNature-->
     <div class="row TrueNatureContainer container-fluid m-0 ps-0 pe-0">
-      <div class="col-sm-4 ps-0 pe-0">
+      <div class="col-4 ps-0 pe-0">
         <img
           src="images/TrueNatureLeveLSunny.png"
           alt="SunnySummerPlatformLevel"
@@ -66,7 +76,7 @@
         />
       </div>
 
-      <div class="col-sm-4 ps-0 pe-0">
+      <div class="col-4 ps-0 pe-0">
         <img
           src="images/TrueNatureLeveLSnowy.png"
           alt="SnowyPlatformLevel"
@@ -74,7 +84,7 @@
         />
       </div>
 
-      <div class="col-sm-4 ps-0 pe-0">
+      <div class="col-4 ps-0 pe-0">
         <img
           src="images/TrueNatureLeveLCave.png"
           alt="ColdCavePlatformLevel"
@@ -139,5 +149,6 @@
         </p>
       </div>
     </div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
